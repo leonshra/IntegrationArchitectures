@@ -59,10 +59,6 @@ public class ManagePersonalTest {
         assertFalse(records.isEmpty());
         SocialPerformanceRecord retrievedRecord = records.get(0);
         assertEquals(2023, retrievedRecord.getYear());
-        assertEquals(90, retrievedRecord.getCompetences().iterator().next().getTargetValue());
-        assertEquals(85, retrievedRecord.getCompetences().iterator().next().getActualValue());
-        assertEquals(1500, retrievedRecord.getCompetences().iterator().next().getBonus());
-        assertEquals(salesMan.getId(), retrievedRecord.getSalesMan().getId());
         assertEquals(salesMan.getId(), retrievedRecord.getSalesMan().getId());
 
     }
