@@ -32,7 +32,7 @@ public class SocialPerformanceRecord {
     }
 
     public Set<SocialCompetence> getCompetences() {
-        return Collections.unmodifiableSet(competences);
+        return competences;
     }
 
     public int getYear() {
@@ -77,6 +77,8 @@ public class SocialPerformanceRecord {
         for (SocialCompetence competence : competences) {
             competencesList.add(competence.toDocument());
         }
+
+        document.append("year", year);
 
         // Append the competences to the document
         document.append("competences", competencesList);

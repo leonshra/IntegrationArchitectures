@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6f1496c-8ee2-4645-b9e4-2f4603b0f5f8" name="Changes" comment="add first solution for 1.2">
-      <change afterPath="$PROJECT_DIR$/1/1.2/mongodbstart/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/1.2/mongodbstart/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/1.2/mongodbstart/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/1.2/mongodbstart/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/1.2/mongodbstart/src/main/java/de/hbrs/ia/code/IManagePersonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/1.2/mongodbstart/src/main/java/de/hbrs/ia/code/ManagePersonalImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/1.2/mongodbstart/src/main/java/de/hbrs/ia/code/QuickStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/1.2/mongodbstart/src/main/java/de/hbrs/ia/model/SocialPerformanceRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/1.2/mongodbstart/target/classes/de/hbrs/ia/code/IManagePersonal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/1.2/mongodbstart/target/classes/de/hbrs/ia/code/ManagePersonalImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/1.2/mongodbstart/target/classes/de/hbrs/ia/code/QuickStart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/1.2/mongodbstart/target/classes/de/hbrs/ia/model/SalesMan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/1.2/mongodbstart/target/classes/de/hbrs/ia/model/SocialPerformanceRecord$SocialCompetence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/1.2/mongodbstart/target/classes/de/hbrs/ia/model/SocialPerformanceRecord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.2/mongodbstart" beforeDir="false" afterPath="$PROJECT_DIR$/1/1.2/mongodbstart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.2/mongodbstart/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1/1.2/mongodbstart/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.2/mongodbstart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1/1.2/mongodbstart/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.2/mongodbstart/src/main/java/de/hbrs/ia/code/ManagePersonal.java" beforeDir="false" />
-    </list>
+    <list default="true" id="d6f1496c-8ee2-4645-b9e4-2f4603b0f5f8" name="Changes" comment="add first solution for 1.2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,17 +17,23 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="2nlA6d9q3LqxBuc7OzS69wKrTYt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/leons/OneDrive - Hochschule Bonn-Rhein-Sieg/IA/IntegrationArchitectures",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Theodor/OneDrive - Hochschule Bonn-Rhein-Sieg/5.Semester/Integration Architectures/Projekt_Github/1/1.2/mongodbstart",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,6 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729537115078</updated>
       <workItem from="1729537116216" duration="732000" />
+      <workItem from="1729539935751" duration="103000" />
     </task>
     <servers />
   </component>
@@ -85,5 +73,26 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add first solution for 1.2" />
     <option name="LAST_COMMIT_MESSAGE" value="add first solution for 1.2" />
+  </component>
+  <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
+    <option name="sizePresets">
+      <list>
+        <SizePreset>
+          <option name="caption" value="Phone" />
+          <option name="height" value="568" />
+          <option name="width" value="320" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Tablet" />
+          <option name="height" value="1024" />
+          <option name="width" value="768" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Desktop" />
+          <option name="height" value="900" />
+          <option name="width" value="1440" />
+        </SizePreset>
+      </list>
+    </option>
   </component>
 </project>
