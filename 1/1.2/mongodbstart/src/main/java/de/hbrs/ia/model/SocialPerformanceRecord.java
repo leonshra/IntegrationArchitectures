@@ -9,17 +9,16 @@ public class SocialPerformanceRecord {
     private Set<SocialCompetence> competences;
     private int year;
 
-    private static final List<SocialCompetence> PREDEFINED_COMPETENCES = Arrays.asList(
-            new SocialCompetence(1, "Leadership Competence"),
-            new SocialCompetence(2, "Openness to Employee"),
-            new SocialCompetence(3, "Social Behaviour to Employee"),
-            new SocialCompetence(4, "Attitude towards Client"),
-            new SocialCompetence(5, "Communication Skills"),
-            new SocialCompetence(6, "Integrity to Company")
-    );
-
     public SocialPerformanceRecord(int year) {
         this.year = year;
+        List<SocialCompetence> PREDEFINED_COMPETENCES = Arrays.asList(
+                new SocialCompetence(1, "Leadership Competence"),
+                new SocialCompetence(2, "Openness to Employee"),
+                new SocialCompetence(3, "Social Behaviour to Employee"),
+                new SocialCompetence(4, "Attitude towards Client"),
+                new SocialCompetence(5, "Communication Skills"),
+                new SocialCompetence(6, "Integrity to Company")
+        );
         this.competences = new HashSet<>(PREDEFINED_COMPETENCES);
     }
 
